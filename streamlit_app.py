@@ -35,14 +35,5 @@ first = (dt.datetime.today() - dt.timedelta(days=3)).strftime("%Y-%m-%d") + "%20
 
 AFAD_eqe_df = afad_reader( first , last ) 
 
-st.dataframe( data = AFAD_eqe_df)
-
-m = folium.Map(location=[39, 34], zoom_start = 6 )
-
-for index , row in AFAD_eqe_df.iterrows() :
-    folium.Marker( (float( row.Latitude )  , float( row.Longitude ) ) , popup= f"{row.Province} | {row.Date} | {row.Type} {row.Magnitude}" , tooltip=f"{row.Province} | {row.Date} | {row.Type} {row.Magnitude}" , icon=folium.Icon(color='lightgray', icon='star', prefix='fa' , )).add_to(m)
-st_data = st_folium(m, width="100%")
-
-
-# st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 # %%
