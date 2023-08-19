@@ -40,7 +40,7 @@ with tab_bakis :
 
     onceki_depremler_df = kayitli_depremler( ) ;
 
-    metin = f"Şu anda bu sitede önceden kaydedilmiş {len( onceki_depremler_df)} adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
+    metin = f"Şu anda bu sitede önceden kaydedilmiş **{len( onceki_depremler_df)}** adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
 
     st.markdown( metin)
 
@@ -48,42 +48,62 @@ with tab_bakis :
 
 
 with tab_analiz :
-    st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
 
-    col_ilk , col_son = st.columns( 2)
-    with col_ilk:
-        ilk_gun = st.date_input("İlk gün")
+    tab_zaman , tab_konum = st.tabs( ["Zaman aralığına bağlı" , "Konum bilgisine bağlı"])
 
-        first = ilk_gun.strftime("%Y-%m-%d") + "%2000:00:00"
-    with col_son:
-        son_gun = st.date_input("Son gün")
+    with tab_zaman :
+        st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
 
-        last = son_gun.strftime("%Y-%m-%d") + "%2023:59:00"
+        col_ilk , col_son = st.columns( 2)
+        with col_ilk:
+            ilk_gun = st.date_input("İlk gün")
 
-    button_show = st.button( "Depremleri göster")
-    #------------------------------------------------------------------------------
-    if button_show :
-        AFAD_eqe_df = afad_reader( first , last )
+            first = ilk_gun.strftime("%Y-%m-%d") + "%2000:00:00"
+        with col_son:
+            son_gun = st.date_input("Son gün")
 
-        # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
-        try : 
-            birlestirilmis_df = pd.concat( [ onceki_depremler_df , AFAD_eqe_df] , axis= 0  )
+            last = son_gun.strftime("%Y-%m-%d") + "%2023:59:00"
 
-            birlestirilmis_df = birlestirilmis_df.drop_duplicates( subset="EventID", keep = "last" )
-
-            birlestirilmis_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
-
-            # st.dataframe( birlestirilmis_df)
-        except Exception as err  :
-            st.write("Birleştirme yok")
-
-        metin = f"{ilk_gun} ile {son_gun} zaman aralığında kaydedilmiş **{len( AFAD_eqe_df)}** adet deprem bulunmaktadır. En büyük deprem **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Type} {AFAD_eqe_df.Magnitude.max()}**, **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
-
-        st.markdown( metin)
-
+        button_show = st.button( "Depremleri göster")
         #------------------------------------------------------------------------------
+        if button_show :
+            AFAD_eqe_df = afad_reader( first , last )
 
-        st.dataframe( AFAD_eqe_df)
+            # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
+            try : 
+                birlestirilmis_df = pd.concat( [ onceki_depremler_df , AFAD_eqe_df] , axis= 0  )
 
-        st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
+                birlestirilmis_df = birlestirilmis_df.drop_duplicates( subset="EventID", keep = "last" )
+
+                birlestirilmis_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
+
+                # st.dataframe( birlestirilmis_df)
+            except Exception as err  :
+                st.write("Birleştirme yok")
+
+            metin = f"{ilk_gun} ile {son_gun} zaman aralığında kaydedilmiş **{len( AFAD_eqe_df)}** adet deprem bulunmaktadır. En büyük deprem **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Type} {AFAD_eqe_df.Magnitude.max()}**, **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
+
+            st.markdown( metin)
+
+            #------------------------------------------------------------------------------
+
+            st.dataframe( AFAD_eqe_df)
+
+            st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
+    with tab_konum :
+        iller = onceki_depremler_df["Province"].unique()
+
+        st_iller = st.multiselect( "İl seçiniz", iller)
+
+        if st_iller : 
+            onceki_depremler_secili_df = onceki_depremler_df.query(f"Province in {st_iller}")
+
+            button_show_secili = st.button("Secili konumları göster")
+
+            if button_show_secili :
+                st.dataframe( onceki_depremler_secili_df)
+
+                          
+                st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+                    
 # %%
