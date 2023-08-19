@@ -31,24 +31,33 @@ def kayitli_depremler( ) :
 #%% ===========================================================================
 st.markdown(f"### AAD AFAD Depremler")
 
-tab_giris , tab_bakis , tab_detay = st.tabs(["AnaSayfa","GenelBakış","Analiz"])
+tab_giris , tab_bakis , tab_analiz = st.tabs(["Ana Sayfa","Genel Bakış","Analiz"])
 #------------------------------------------------------------------------------
 with tab_giris : 
-    st.write("Bakıs")
-    onceki_depremler_df = kayitli_depremler( )
-
-    # st.dataframe( onceki_depremler_df)
-    st.data_editor( onceki_depremler_df)
-
+    st.markdown("### Bu sayfa nedir\nBu site minik bir arayışın sonucudur. Zira sismisite analizi açısından bir çok araşm olmakla beraber bir şekilde özelleştirilebilir bir arayüz arayışındaydım. Bu site ile bearber çözüm gelmiş oldu.\n\nAhmet Anıl Dindar")
 
 with tab_bakis : 
+
+    onceki_depremler_df = kayitli_depremler( ) ;
+
+    metin = f"Şu anda bu sitede önceden kaydedilmiş {len( onceki_depremler_df)} adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
+    
+    # st.data_editor( onceki_depremler_df)
+
+    st.markdown( metin)
+
+    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+
+
+
+with tab_analiz : 
     last = dt.datetime.today().strftime("%Y-%m-%d") + "%2000:00:00"
     first = (dt.datetime.today() - dt.timedelta(days = 1 )).strftime("%Y-%m-%d") + "%2000:00:00"
 
     #------------------------------------------------------------------------------
 
     AFAD_eqe_df = afad_reader( first , last ) 
-    AFAD_eqe_df["Magnitude"] *= 10 
+    AFAD_eqe_df["Magnitude"] *= 5
 
     # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index = False)
 
