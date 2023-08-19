@@ -25,7 +25,7 @@ def afad_reader( first , last ) :
 #
 #%%
 
-st.title("AAD AFAD Depremler")
+st.write(f"AAD AFAD Depremler")
 #--------------------
 last = dt.datetime.today().strftime("%Y-%m-%d") + "%2000:00:00"
 first = (dt.datetime.today() - dt.timedelta(days=3)).strftime("%Y-%m-%d") + "%2000:00:00"
