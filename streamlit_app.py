@@ -48,6 +48,7 @@ with tab_bakis :
     #------------------------------------------------------------------------------
 
     AFAD_eqe_df = afad_reader( first , last ) 
+    AFAD_eqe_df["Magnitude"] *= 10 
 
     # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index = False)
 
