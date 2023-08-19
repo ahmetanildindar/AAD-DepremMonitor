@@ -3598,11 +3598,11 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.19,Göksun (Kahramanmaraş),37.966,36.381,7.12,ML,3.6,Türkiye,Kahramanmaraş,Göksun,Sırmalı,2023-08-17 06:45:49,False,,599358.0
 0.61,"Afrin, Halep (Suriye) - [02.96 km] Kırıkhan (Hatay)",36.511,36.555,15.84,ML,3.1,Suriye,,,,2023-08-17 07:09:49,False,,599359.0
 0.39,Gölbaşı (Adıyaman),37.798,37.716,5.43,MW,4.1,Türkiye,Adıyaman,Gölbaşı,Akçakaya,2023-08-17 15:25:06,False,,599398.0
-0.36,Göksun (Kahramanmaraş),37.982,36.393,7.02,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-17 17:21:42,False,,599409.0
 0.99,Elbistan (Kahramanmaraş),38.368,37.474,7.0,ML,3.4,Türkiye,Kahramanmaraş,Elbistan,Yalıntaş,2023-08-18 13:44:50,False,,599540.0
+0.36,Göksun (Kahramanmaraş),37.982,36.393,7.02,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-17 17:21:42,False,,599409.0
 0.36,Merkez (Osmaniye),37.017,36.384,12.84,ML,3.1,Türkiye,Osmaniye,Merkez,Yarpuz,2023-08-18 15:53:36,False,,599552.0
 0.35,Ege Denizi - İzmir Körfezi - [05.81 km] Foça (İzmir),38.677,26.678,9.01,ML,3.3,Türkiye,İzmir,Foça,,2023-08-18 20:59:51,False,,599588.0
 0.29,Marmaris (Muğla),36.694,28.105,67.14,ML,3.1,Türkiye,Muğla,Marmaris,Selimiye,2023-08-18 22:00:18,False,,599628.0
-0.47,Göksun (Kahramanmaraş),37.974,36.336,7.28,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-19 00:14:03,False,,599667.0
-0.64,Marmara Denizi - [16.55 km] Marmaraereğlisi (Tekirdağ),40.842,28.068,7.0,MW,3.8,Türkiye,Tekirdağ,Marmaraereğlisi,,2023-08-19 14:43:46,True,8/19/2023 2:57:13 PM,599704.0
-0.56,Merkez (Osmaniye),36.992,36.402,7.0,ML,3.3,Türkiye,Osmaniye,Merkez,Dereobası,2023-08-19 18:27:29,False,,599716.0
+0.47,Göksun (Kahramanmaraş),37.974,36.336,7.28,ML,15.5,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-19 00:14:03,False,,599667.0
+0.64,Marmara Denizi - [16.55 km] Marmaraereğlisi (Tekirdağ),40.842,28.068,7.0,MW,19.0,Türkiye,Tekirdağ,Marmaraereğlisi,,2023-08-19 14:43:46,True,8/19/2023 2:57:13 PM,599704.0
+0.56,Merkez (Osmaniye),36.992,36.402,7.0,ML,16.5,Türkiye,Osmaniye,Merkez,Dereobası,2023-08-19 18:27:29,False,,599716.0

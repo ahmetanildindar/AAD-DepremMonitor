@@ -1,12 +1,12 @@
 #%%
-import pandas as pd 
-import streamlit as st 
-import datetime as dt 
+import pandas as pd
+import streamlit as st
+import datetime as dt
 
 #
 #
 #%%
-st.set_page_config( page_title="AAD AFAD EQE Monitor", layout="wide")
+st.set_page_config( page_title="AAD Deprem Monitor", layout="wide")
 #
 #%%
 @st.cache_resource
@@ -23,49 +23,67 @@ def afad_reader( first , last ) :
     #
     return( AFAD_eqe_son_okuma_df )
 #
-def kayitli_depremler( ) : 
+def kayitli_depremler( ) :
     mevcut_depremler_df = pd.read_csv( "AAD-AFAD_Depremler.csv")
 
     return( mevcut_depremler_df)
 #
 #%% ===========================================================================
-st.markdown(f"### AAD AFAD Depremler")
+st.markdown(f"### AAD Depremler")
 
 tab_giris , tab_bakis , tab_analiz = st.tabs(["Ana Sayfa","Genel Bakış","Analiz"])
 #------------------------------------------------------------------------------
-with tab_giris : 
-    st.markdown("### Bu sayfa nedir\nBu site minik bir arayışın sonucudur. Zira sismisite analizi açısından bir çok araşm olmakla beraber bir şekilde özelleştirilebilir bir arayüz arayışındaydım. Bu site ile bearber çözüm gelmiş oldu.\n\nAhmet Anıl Dindar")
+with tab_giris :
+    st.markdown("### Bu sayfa nedir\nBu site minik bir arayışın sonucudur. Zira sismisite analizi açısından bir çok araşm olmakla beraber bir şekilde özelleştirilebilir bir arayüz arayışındaydım. Bu site ile bearber çözüm gelmiş oldu.\n\nDepremlere ait bilgiler AFAD'ın web sitesinden alınmaktadır.\n\nAhmet Anıl Dindar")
 
-with tab_bakis : 
+with tab_bakis :
 
     onceki_depremler_df = kayitli_depremler( ) ;
 
-    onceki_depremler_df["Magnitude"] *= 5
- 
     metin = f"Şu anda bu sitede önceden kaydedilmiş {len( onceki_depremler_df)} adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
-    
-    # st.data_editor( onceki_depremler_df)
 
     st.markdown( metin)
 
     st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 
 
+with tab_analiz :
+    st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
 
-with tab_analiz : 
-    last = dt.datetime.today().strftime("%Y-%m-%d") + "%2000:00:00"
-    first = (dt.datetime.today() - dt.timedelta(days = 1 )).strftime("%Y-%m-%d") + "%2000:00:00"
+    col_ilk , col_son = st.columns( 2)
+    with col_ilk:
+        ilk_gun = st.date_input("İlk gün")
 
+        first = ilk_gun.strftime("%Y-%m-%d") + "%2000:00:00"
+    with col_son:
+        son_gun = st.date_input("Son gün")
+
+        last = son_gun.strftime("%Y-%m-%d") + "%2023:59:00"
+
+    button_show = st.button( "Depremleri göster")
     #------------------------------------------------------------------------------
+    if button_show :
+        AFAD_eqe_df = afad_reader( first , last )
 
-    AFAD_eqe_df = afad_reader( first , last ) 
-    AFAD_eqe_df["Magnitude"] *= 5
+        # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
+        try : 
+            birlestirilmis_df = pd.concat( [ onceki_depremler_df , AFAD_eqe_df] , axis= 0  )
 
-    # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index = False)
+            birlestirilmis_df = birlestirilmis_df.drop_duplicates( subset="EventID", keep = "last" )
 
-    #------------------------------------------------------------------------------
+            birlestirilmis_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
 
-    st.dataframe( AFAD_eqe_df)
-    st.markdown("---")
-    st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+            # st.dataframe( birlestirilmis_df)
+        except Exception as err  :
+            st.write("Birleştirme yok")
+
+        metin = f"{ilk_gun} ile {son_gun} zaman aralığında kaydedilmiş **{len( AFAD_eqe_df)}** adet deprem bulunmaktadır. En büyük deprem **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Type} {AFAD_eqe_df.Magnitude.max()}**, **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{AFAD_eqe_df[ AFAD_eqe_df.Magnitude == AFAD_eqe_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
+
+        st.markdown( metin)
+
+        #------------------------------------------------------------------------------
+
+        st.dataframe( AFAD_eqe_df)
+
+        st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
 # %%
