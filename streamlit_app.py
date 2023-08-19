@@ -40,6 +40,8 @@ with tab_bakis :
 
     onceki_depremler_df = kayitli_depremler( ) ;
 
+    onceki_depremler_df["Mangitude"] *= 5
+ 
     metin = f"Şu anda bu sitede önceden kaydedilmiş {len( onceki_depremler_df)} adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
     
     # st.data_editor( onceki_depremler_df)
