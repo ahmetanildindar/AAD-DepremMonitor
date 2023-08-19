@@ -91,6 +91,8 @@ with tab_analiz :
 
             st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
     with tab_konum :
+        st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
+
         iller = onceki_depremler_df["Province"].unique()
 
         st_iller = st.multiselect( "İl seçiniz", iller)
