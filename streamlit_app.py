@@ -2,8 +2,6 @@
 import pandas as pd 
 import streamlit as st 
 import datetime as dt 
-from streamlit_folium import st_folium
-from folium.plugins import BeautifyIcon
 
 #
 #
