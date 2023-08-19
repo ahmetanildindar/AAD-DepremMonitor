@@ -32,5 +32,7 @@ first = (dt.datetime.today() - dt.timedelta(days=3)).strftime("%Y-%m-%d") + "%20
 
 AFAD_eqe_df = afad_reader( first , last ) 
 
+st.dataframe( AFAD_eqe_df)
+
 st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 # %%
