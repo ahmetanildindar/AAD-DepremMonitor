@@ -6,7 +6,7 @@ import datetime as dt
 #
 #
 #%%
-st.set_page_config( page_title="AAD AFAD EQE Viewer", layout="wide")
+st.set_page_config( page_title="AAD AFAD EQE Monitor", layout="wide")
 #
 #%%
 @st.cache_resource
