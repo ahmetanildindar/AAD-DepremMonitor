@@ -68,6 +68,8 @@ with tab_analiz :
         #------------------------------------------------------------------------------
         if button_show :
             AFAD_eqe_df = afad_reader( first , last )
+            if len( AFAD_eqe_df ) == 0 :
+                st.write( "Deprem yok")
 
             # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
             try : 
