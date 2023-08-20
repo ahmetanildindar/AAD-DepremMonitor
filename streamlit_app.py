@@ -109,7 +109,9 @@ with tab_analiz :
         st_iller = st.multiselect( "İl seçiniz", iller)
 
         if st_iller : 
-            onceki_depremler_secili_df = onceki_depremler_df.query(f"Province in {st_iller}")
+            # onceki_depremler_secili_df = onceki_depremler_df.query(f"Province in {st_iller}")
+            onceki_depremler_secili_df = onceki_depremler_df[ onceki_depremler_df["Province"].isin( st_iller)]
+
 
             button_show_secili = st.button("Secili konumları göster")
 
