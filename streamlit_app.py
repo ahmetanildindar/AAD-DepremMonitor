@@ -9,7 +9,7 @@ import datetime as dt
 st.set_page_config( page_title="AAD Deprem Monitor", layout="wide")
 #
 #%%
-@st.cache_resource
+# @st.cache_data
 def afad_reader( first , last ) :
 
     """
