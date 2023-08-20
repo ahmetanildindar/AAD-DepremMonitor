@@ -31,7 +31,7 @@ def kayitli_depremler( ) :
 #%% ===========================================================================
 st.markdown(f"### AAD Depremler")
 
-tab_giris , tab_bakis , tab_analiz = st.tabs(["Ana Sayfa","Genel Bakış","Analiz"])
+tab_giris , tab_bakis , tab_analiz , tab_test = st.tabs(["Ana Sayfa","Genel Bakış","Analiz","Test"])
 #------------------------------------------------------------------------------
 with tab_giris :
     st.markdown("### Bu sayfa nedir\nBu site minik bir arayışın sonucudur. Zira sismisite analizi açısından bir çok araşm olmakla beraber bir şekilde özelleştirilebilir bir arayüz arayışındaydım. Bu site ile bearber çözüm gelmiş oldu.\n\nDepremlere ait bilgiler AFAD'ın web sitesinden alınmaktadır.\n\nAhmet Anıl Dindar")
