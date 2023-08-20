@@ -3,6 +3,9 @@ import pandas as pd
 import streamlit as st
 import datetime as dt
 
+import folium
+
+from streamlit_folium import st_folium
 #
 #
 #%%
@@ -43,6 +46,10 @@ with tab_bakis :
     metin = f"Şu anda bu sitede önceden kaydedilmiş **{len( onceki_depremler_df)}** adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
 
     st.markdown( metin)
+
+    onceki_depremler_df = onceki_depremler_df[ onceki_depremler_df["Country"] == "Türkiye"]
+
+    st.dataframe( onceki_depremler_df )
 
     st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 
