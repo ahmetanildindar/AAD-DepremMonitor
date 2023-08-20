@@ -122,11 +122,6 @@ with tab_analiz :
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
                     
 with tab_test : 
-    import folium
-    import streamlit as st
-
-    from streamlit_folium import st_folium
-
     # center on Liberty Bell, add marker
     m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
     folium.Marker(
