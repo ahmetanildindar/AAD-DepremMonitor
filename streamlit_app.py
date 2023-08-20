@@ -51,7 +51,7 @@ with tab_bakis :
 
     st.dataframe( onceki_depremler_df )
 
-    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+    # st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 
 
 with tab_analiz :
@@ -100,7 +100,7 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
-            st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
+            # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
     with tab_konum :
         st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
 
@@ -127,14 +127,14 @@ with tab_test :
 
     from streamlit_folium import st_folium
 
-    # # center on Liberty Bell, add marker
-    # m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
-    # folium.Marker(
-    #     [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
-    # ).add_to(m)
+    # center on Liberty Bell, add marker
+    m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
+    folium.Marker(
+        [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
+    ).add_to(m)
 
-    # # call to render Folium map in Streamlit, but don't get any data back
-    # # from the map (so that it won't rerun the app when the user interacts)
-    # st_folium(m, width=725, returned_objects=[])
+    # call to render Folium map in Streamlit, but don't get any data back
+    # from the map (so that it won't rerun the app when the user interacts)
+    st_folium(m, width=725, returned_objects=[])
 
 # %%
