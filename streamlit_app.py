@@ -31,7 +31,7 @@ def kayitli_depremler( ) :
 #%% ===========================================================================
 st.markdown(f"### AAD Depremler")
 
-tab_giris , tab_bakis , tab_analiz = st.tabs(["Ana Sayfa","Genel Bakış","Analiz"])
+tab_giris , tab_bakis , tab_analiz , tab_test = st.tabs(["Ana Sayfa","Genel Bakış","Analiz","Test"])
 #------------------------------------------------------------------------------
 with tab_giris :
     st.markdown("### Bu sayfa nedir\nBu site minik bir arayışın sonucudur. Zira sismisite analizi açısından bir çok araşm olmakla beraber bir şekilde özelleştirilebilir bir arayüz arayışındaydım. Bu site ile bearber çözüm gelmiş oldu.\n\nDepremlere ait bilgiler AFAD'ın web sitesinden alınmaktadır.\n\nAhmet Anıl Dindar")
@@ -70,6 +70,8 @@ with tab_analiz :
             AFAD_eqe_df = afad_reader( first , last )
             if len( AFAD_eqe_df ) == 0 :
                 st.write( "Deprem yok")
+
+            AFAD_eqe_df = AFAD_eqe_df.dropna( by="Province")
 
             # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
             try : 
@@ -110,4 +112,20 @@ with tab_analiz :
                           
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
                     
+with tab_test : 
+    import folium
+    import streamlit as st
+
+    from streamlit_folium import st_folium
+
+    # # center on Liberty Bell, add marker
+    # m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
+    # folium.Marker(
+    #     [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
+    # ).add_to(m)
+
+    # # call to render Folium map in Streamlit, but don't get any data back
+    # # from the map (so that it won't rerun the app when the user interacts)
+    # st_folium(m, width=725, returned_objects=[])
+
 # %%
