@@ -77,7 +77,7 @@ with tab_analiz :
             if len( AFAD_eqe_df ) == 0 :
                 st.write( "Deprem yok")
 
-            AFAD_eqe_df = AFAD_eqe_df.dropna( by="Province")
+            #AFAD_eqe_df = AFAD_eqe_df.dropna( by="Province")
 
             # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
             try : 
