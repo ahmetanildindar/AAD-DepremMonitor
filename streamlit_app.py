@@ -99,7 +99,7 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
-            st.map( AFAD_eqe_df)
+            st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude")
 
 
             # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
