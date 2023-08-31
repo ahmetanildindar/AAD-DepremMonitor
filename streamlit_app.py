@@ -99,6 +99,9 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
+            st.map( AFAD_eqe_df["Latitude"] , AFAD_eqe_df["Longitude"] )
+
+
             # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
     with tab_konum :
         st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
