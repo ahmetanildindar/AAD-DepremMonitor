@@ -50,7 +50,7 @@ with tab_bakis :
 
     st.dataframe( onceki_depremler_df )
 
-    # st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 
 
 with tab_analiz :
