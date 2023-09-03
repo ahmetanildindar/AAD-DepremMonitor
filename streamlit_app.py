@@ -99,7 +99,10 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
-            st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "Magnitude")
+            map_on = st.toggle('Activate feature')
+
+            if map_on : 
+                st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "Magnitude")
 
 
             # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
