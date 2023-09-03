@@ -122,25 +122,6 @@ with tab_analiz :
                           
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
                     
-<<<<<<< HEAD
-with tab_test : 
-
-
-    m2 = folium.Map(location=[15, 0], tiles="OpenStreetMap", zoom_start=2)
-
-    # star marker
-    icon_star = BeautifyIcon(
-        icon='star',
-        inner_icon_style='color:blue;font-size:10px;',
-        background_color='transparent',
-        border_color='transparent',
-    )
-
-    folium.Marker([60, 125], tooltip='star', icon=icon_star).add_to(m2)
-
-    st_folium(m2, width=725, returned_objects=[])
-
-=======
 # with tab_test : 
 #     # center on Liberty Bell, add marker
 #     m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
@@ -151,6 +132,5 @@ with tab_test :
 #     # call to render Folium map in Streamlit, but don't get any data back
 #     # from the map (so that it won't rerun the app when the user interacts)
 #     st_folium(m, width=725, returned_objects=[])
->>>>>>> 96d505e4d870d4648ebe8037f8bb8ca6312f3350
 
 # %%
