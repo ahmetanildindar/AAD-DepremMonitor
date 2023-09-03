@@ -31,7 +31,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.2,Ege Denizi - [13.78 km] Ayvacık (Çanakkale),39.379,26.269,14.34,MW,3.2,Türkiye,Çanakkale,Ayvacık,,2023-01-10 14:51:40,False,,540876.0
 0.38,Ege Denizi - [10.56 km] Ayvacık (Çanakkale),39.399,26.309,10.1,MW,3.5,Türkiye,Çanakkale,Ayvacık,,2023-01-10 16:20:40,False,,540879.0
 0.73,Ege Denizi - [10.88 km] Ayvacık (Çanakkale),39.407,26.271,7.0,MW,3.3,Türkiye,Çanakkale,Ayvacık,,2023-01-10 17:04:31,False,,540884.0
-0.24,"Amedi, Duhok (Irak) - [19.96 km] Çukurca (Hakkari)",37.074,43.938,7.0,MW,3.7,Irak,,,,2023-01-11 03:05:40,False,,540946.0
 0.64,Karlıova (Bingöl),39.152,40.809,7.0,ML,3.3,Türkiye,Bingöl,Karlıova,Yiğitler,2023-01-11 04:25:48,False,,540955.0
 0.25,"Ege Denizi, Midilli Adası (Lesvos) - [13.94 km] Ayvacık (Çanakkale)",39.371,26.291,7.03,MW,3.5,Türkiye,Çanakkale,Ayvacık,,2023-01-11 06:01:10,False,,540967.0
 0.41,Ege Denizi - [13.76 km] Ayvacık (Çanakkale),39.378,26.273,7.15,ML,3.1,Türkiye,Çanakkale,Ayvacık,,2023-01-11 09:23:05,False,,541016.0
@@ -61,15 +60,9 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.85,Düziçi (Osmaniye),37.32,36.379,7.0,ML,3.2,Türkiye,Osmaniye,Düziçi,İbişler,2023-01-17 18:22:40,False,,541848.0
 0.11,Buca (İzmir),38.344,27.216,8.94,ML,3.2,Türkiye,İzmir,Buca,Zafer,2023-01-17 23:38:35,False,,541865.0
 0.32,Ege Denizi - [05.91 km] Ayvacık (Çanakkale),39.443,26.361,8.77,MW,3.8,Türkiye,Çanakkale,Ayvacık,,2023-01-18 07:54:52,False,,541885.0
-0.44,"Khoy, West Azarbaijan (İran) - [52.50 km] Başkale (Van)",38.556,44.968,7.0,MW,3.8,İran,,,,2023-01-18 12:44:37,False,,541908.0
 0.55,Ceyhan (Adana),36.997,36.017,16.56,ML,3.3,Türkiye,Adana,Ceyhan,Dokuztekne,2023-01-18 13:30:47,False,,541912.0
-0.63,"Khoy, West Azarbaijan (İran) - [38.72 km] Başkale (Van)",38.556,44.788,7.0,MW,4.5,İran,,,,2023-01-18 14:55:51,True,1/18/2023 3:16:09 PM,541916.0
-0.38,"Khoy, West Azarbaijan (İran) - [34.12 km] Başkale (Van)",38.517,44.757,6.99,MW,3.7,İran,,,,2023-01-18 15:55:10,False,,541919.0
-0.54,"Khoy, West Azarbaijan (İran) - [38.47 km] Başkale (Van)",38.567,44.774,7.0,MW,4.3,İran,,,,2023-01-19 05:55:21,False,,541996.0
-0.59,"Khoy, West Azarbaijan (İran) - [48.61 km] Başkale (Van)",38.552,44.921,4.47,ML,3.1,İran,,,,2023-01-19 23:46:05,False,,542057.0
 0.75,Ege Denizi - Kuşadası Körfezi - [17.69 km] Menderes (İzmir),37.894,26.975,7.78,MW,3.6,Türkiye,İzmir,Menderes,,2023-01-20 00:04:27,False,,542058.0
 0.86,Akdeniz - [52.84 km] Alanya (Antalya),36.148,31.644,58.37,MW,3.8,Türkiye,Antalya,Alanya,,2023-01-20 05:37:23,False,,542081.0
-0.58,"Khoy, West Azarbaijan (İran) - [46.60 km] Başkale (Van)",38.56,44.89,7.48,ML,3.9,İran,,,,2023-01-20 15:13:41,False,,542115.0
 0.86,Sarız (Kayseri),38.454,36.609,6.85,ML,3.1,Türkiye,Kayseri,Sarız,Dallıkavak,2023-01-22 02:28:39,False,,542272.0
 0.32,Ege Denizi - [12.70 km] Ayvacık (Çanakkale),39.387,26.241,15.66,ML,3.2,Türkiye,Çanakkale,Ayvacık,,2023-01-23 12:22:17,False,,542359.0
 0.29,"Ege Denizi, Midilli Adası (Lesvos) - [15.97 km] Ayvacık (Çanakkale)",39.358,26.267,11.46,MW,3.9,Türkiye,Çanakkale,Ayvacık,,2023-01-24 00:48:48,False,,542411.0
@@ -77,19 +70,7 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.74,Ege Denizi - [70.11 km] Datça (Muğla),36.454,26.723,28.16,ML,3.1,Türkiye,Muğla,Datça,,2023-01-26 02:55:30,False,,542619.0
 0.5,Çal (Denizli),37.898,29.304,13.15,ML,3.2,Türkiye,Denizli,Çal,Baklançakırlar,2023-01-26 06:08:50,False,,542629.0
 0.48,Yedisu (Bingöl),39.391,40.644,7.0,MW,3.1,Türkiye,Bingöl,Yedisu,Elmalı,2023-01-27 12:32:02,False,,542705.0
-0.69,"Khoy, West Azarbaijan (İran) - [45.51 km] Başkale (Van)",38.553,44.881,6.49,MW,5.8,İran,,,,2023-01-28 18:14:46,False,,542779.0
-0.86,"Khoy, West Azarbaijan (İran) - [49.68 km] Başkale (Van)",38.571,44.922,7.0,ML,3.2,İran,,,,2023-01-28 19:47:53,False,,542792.0
-0.51,"Khoy, West Azarbaijan (İran) - [47.94 km] Başkale (Van)",38.586,44.889,7.0,MW,4.3,İran,,,,2023-01-28 20:09:57,False,,542795.0
-0.6,"Khoy, West Azarbaijan (İran) - [46.00 km] Başkale (Van)",38.551,44.889,7.0,MW,3.7,İran,,,,2023-01-28 22:28:13,False,,542806.0
-0.53,"Khoy, West Azarbaijan (İran) - [43.77 km] Başkale (Van)",38.554,44.857,7.0,MW,3.7,İran,,,,2023-01-28 23:27:21,False,,542807.0
-0.5,"Khoy, West Azarbaijan (İran) - [47.63 km] Başkale (Van)",38.515,44.929,7.0,MW,4.7,İran,,,,2023-01-29 14:41:11,False,,542847.0
-0.69,"Khoy, West Azarbaijan (İran) - [47.79 km] Başkale (Van)",38.542,44.917,7.0,MW,4.6,İran,,,,2023-01-29 15:13:21,False,,542849.0
-0.54,"Khoy, West Azarbaijan (İran) - [47.29 km] Başkale (Van)",38.535,44.914,7.0,MW,4.2,İran,,,,2023-01-29 16:38:44,False,,542856.0
-0.49,"Khoy, West Azarbaijan (İran) - [47.20 km] Başkale (Van)",38.497,44.932,7.0,MW,3.8,İran,,,,2023-01-29 18:46:18,False,,542868.0
-0.48,"Khoy, West Azarbaijan (İran) - [43.06 km] Başkale (Van)",38.526,44.866,7.0,MW,4.0,İran,,,,2023-01-29 22:00:17,False,,542882.0
 0.26,Gölyaka (Düzce),40.802,30.977,13.07,ML,3.1,Türkiye,Düzce,Gölyaka,Kuyudüzü,2023-01-30 10:14:04,False,,542941.0
-0.51,"Khoy, West Azarbaijan (İran) - [35.02 km] Başkale (Van)",38.494,44.784,7.0,ML,3.5,İran,,,,2023-01-30 18:11:34,True,1/30/2023 6:24:23 PM,542958.0
-0.67,"Khoy, West Azarbaijan (İran) - [44.04 km] Başkale (Van)",38.565,44.853,7.0,ML,3.5,İran,,,,2023-01-31 04:13:02,False,,542992.0
 0.8,Dinar (Afyonkarahisar),38.036,30.055,7.0,ML,3.3,Türkiye,Afyonkarahisar,Dinar,Genceli Mücavir,2023-02-01 13:06:51,False,,543100.0
 0.47,Dinar (Afyonkarahisar),38.054,30.065,7.04,MW,3.7,Türkiye,Afyonkarahisar,Dinar,Avdan,2023-02-01 18:28:57,False,,543127.0
 0.39,Erbaa (Tokat),40.712,36.685,9.45,MW,3.7,Türkiye,Tokat,Erbaa,Bağpınar,2023-02-03 04:59:47,False,,543228.0
@@ -97,9 +78,7 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.37,Laçin (Çorum),40.74,34.978,12.12,MW,4.0,Türkiye,Çorum,Laçin,Sıtma,2023-02-04 06:03:39,True,2/4/2023 6:15:41 AM,543294.0
 0.31,Gaziemir (İzmir),38.339,27.165,8.96,ML,3.1,Türkiye,İzmir,Gaziemir,Fatih,2023-02-05 06:18:09,False,,543375.0
 0.31,Gaziemir (İzmir),38.326,27.167,9.45,ML,3.3,Türkiye,İzmir,Gaziemir,Fatih,2023-02-05 07:32:03,False,,543376.0
-0.3,"Khoy, West Azarbaijan (İran) - [34.51 km] Başkale (Van)",38.546,44.738,7.0,MW,3.8,İran,,,,2023-02-05 09:07:47,False,,543379.0
 0.33,Marmara Denizi - [16.83 km] Marmara (Balıkesir),40.785,27.754,10.62,ML,3.5,Türkiye,Balıkesir,Marmara,,2023-02-05 12:49:58,False,,543385.0
-0.49,Shirak (Ermenistan) - [21.81 km] Akyaka (Kars),41.123,43.767,5.36,ML,3.3,Ermenistan,,,,2023-02-06 00:16:03,False,,543423.0
 0.21,Nurdağı (Gaziantep),37.304,36.92,6.2,MW,6.6,Türkiye,Gaziantep,Nurdağı,Emirler,2023-02-06 01:28:16,False,,543431.0
 0.42,İslahiye (Gaziantep),37.096,36.701,6.38,MW,4.9,Türkiye,Gaziantep,İslahiye,Zincirli,2023-02-06 02:17:40,False,,543435.0
 0.42,Nurdağı (Gaziantep),37.235,36.992,6.98,ML,5.6,Türkiye,Gaziantep,Nurdağı,Şatırhüyük,2023-02-06 01:26:49,True,2/8/2023 7:48:45 AM,543429.0
@@ -914,7 +893,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.44,Sivrice (Elazığ),38.455,39.282,0.21,MW,4.1,Türkiye,Elazığ,Sivrice,Hazar,2023-02-09 00:32:14,False,,544661.0
 0.88,Ekinözü (Kahramanmaraş),38.078,37.139,6.98,ML,3.1,Türkiye,Kahramanmaraş,Ekinözü,Türkeli,2023-02-09 02:53:34,False,,544691.0
 0.49,Belen (Hatay),36.428,36.255,7.0,ML,3.2,Türkiye,Hatay,Belen,Ötençay,2023-02-09 00:36:33,False,,544663.0
-0.24,"Harem, İdlib (Suriye) - [01.84 km] Altınözü (Hatay)",36.071,36.391,7.45,ML,3.5,Suriye,,,,2023-02-09 02:55:19,False,,544692.0
 0.48,Doğanşehir (Malatya),38.119,37.843,6.95,ML,3.5,Türkiye,Malatya,Doğanşehir,Topraktepe,2023-02-09 00:51:27,False,,544664.0
 0.56,Hassa (Hatay),36.693,36.406,5.2,MW,3.9,Türkiye,Hatay,Hassa,Güvenç,2023-02-09 03:24:52,False,,544697.0
 0.63,Onikişubat (Kahramanmaraş),37.852,36.639,11.76,ML,3.3,Türkiye,Kahramanmaraş,Onikişubat,Döngel,2023-02-09 03:40:18,False,,544701.0
@@ -1121,7 +1099,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.48,Yeşilyurt (Malatya),38.24,38.107,7.01,MW,3.5,Türkiye,Malatya,Yeşilyurt,Görgü,2023-02-10 16:00:28,False,,545345.0
 0.81,Onikişubat (Kahramanmaraş),37.928,36.655,7.43,ML,3.1,Türkiye,Kahramanmaraş,Onikişubat,Döngel,2023-02-10 16:17:24,False,,545357.0
 0.41,Yeşilyurt (Malatya),38.244,38.141,10.29,MW,3.7,Türkiye,Malatya,Yeşilyurt,Görgü,2023-02-10 13:02:41,False,,545280.0
-0.44,"Ayn el-Arab, Halep (Suriye) - [03.18 km] Suruç (Şanlıurfa)",36.908,38.258,7.0,ML,3.8,Suriye,,,,2023-02-10 16:43:22,False,,545361.0
 0.43,Göksun (Kahramanmaraş),38.067,36.717,7.01,ML,4.5,Türkiye,Kahramanmaraş,Göksun,Fındık,2023-02-08 05:52:35,False,,544367.0
 0.25,Battalgazi (Malatya),38.192,38.58,12.49,MW,4.2,Türkiye,Malatya,Battalgazi,Yaygın,2023-02-10 17:31:24,False,,545376.0
 0.34,Sincik (Adıyaman),38.101,38.588,7.34,MW,3.9,Türkiye,Adıyaman,Sincik,Arıkonak,2023-02-10 20:12:45,False,,545437.0
@@ -1203,7 +1180,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.43,Göksun (Kahramanmaraş),38.007,36.452,6.56,MW,3.8,Türkiye,Kahramanmaraş,Göksun,Yiricek,2023-02-11 14:54:37,False,,545817.0
 0.75,Ekinözü (Kahramanmaraş),38.051,37.226,7.27,MW,3.5,Türkiye,Kahramanmaraş,Ekinözü,Maarif,2023-02-11 15:07:15,False,,545820.0
 0.4,Göksun (Kahramanmaraş),38.054,36.94,7.0,MW,3.6,Türkiye,Kahramanmaraş,Göksun,Karatut,2023-02-11 17:15:00,False,,545856.0
-0.53,"Kobuleti, Acara (Gürcistan) - [37.57 km] Borçka (Artvin)",41.799,42.135,4.96,MW,4.5,Gürcistan,,,,2023-02-11 15:33:41,False,,545828.0
 0.22,Antakya (Hatay),36.257,36.059,7.0,MW,4.3,Türkiye,Hatay,Antakya,Kisecik,2023-02-11 17:20:00,False,,545857.0
 0.42,Çelikhan (Adıyaman),38.079,38.208,6.9,ML,3.1,Türkiye,Adıyaman,Çelikhan,Gölbağı,2023-02-11 15:31:21,False,,545829.0
 0.42,Türkoğlu (Kahramanmaraş),37.403,36.738,9.5,ML,3.3,Türkiye,Kahramanmaraş,Türkoğlu,Kırmakaya,2023-02-11 15:40:01,False,,545831.0
@@ -1267,7 +1243,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.67,Nurhak (Kahramanmaraş),37.979,37.575,6.95,ML,3.4,Türkiye,Kahramanmaraş,Nurhak,Yeni,2023-02-12 06:24:28,False,,546072.0
 0.48,Göksun (Kahramanmaraş),38.067,36.474,6.97,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Yeni,2023-02-12 06:30:05,False,,546074.0
 0.66,Doğanşehir (Malatya),38.169,37.85,7.0,ML,3.5,Türkiye,Malatya,Doğanşehir,Polat,2023-02-12 09:02:33,False,,546129.0
-0.53,"Shuakhevi, Acara (Gürcistan) - [26.93 km] Şavşat (Artvin)",41.693,42.228,7.52,MW,4.5,Gürcistan,,,,2023-02-12 08:07:02,False,,546101.0
 0.73,Elbistan (Kahramanmaraş),38.072,37.25,8.85,MW,3.9,Türkiye,Kahramanmaraş,Elbistan,Gümüşdöven,2023-02-12 08:14:11,False,,546105.0
 0.66,Çelikhan (Adıyaman),38.088,38.451,7.0,ML,3.4,Türkiye,Adıyaman,Çelikhan,Karaköse,2023-02-12 08:08:51,False,,546106.0
 0.46,Antakya (Hatay),36.312,36.206,6.97,ML,3.3,Türkiye,Hatay,Antakya,Derince,2023-02-12 08:33:37,False,,546110.0
@@ -1808,7 +1783,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.86,Doğanşehir (Malatya),38.125,37.794,7.0,ML,3.6,Türkiye,Malatya,Doğanşehir,Fındık,2023-02-09 19:21:20,False,,549118.0
 0.67,Göksun (Kahramanmaraş),38.125,36.821,7.0,ML,3.3,Türkiye,Kahramanmaraş,Göksun,Çardak,2023-02-08 07:29:20,False,,549123.0
 0.73,Doğanşehir (Malatya),38.043,37.788,7.09,ML,3.6,Türkiye,Malatya,Doğanşehir,Kadılı,2023-02-10 00:01:25,False,,549151.0
-0.76,"Kobuleti, Acara (Gürcistan) - [39.32 km] Borçka (Artvin)",41.837,41.971,7.0,ML,3.1,Gürcistan,,,,2023-02-17 09:40:23,True,2/17/2023 10:12:04 AM,549179.0
 0.3,Göksun (Kahramanmaraş),37.876,36.291,6.92,ML,3.7,Türkiye,Kahramanmaraş,Göksun,Payamburnu,2023-02-17 10:48:07,False,,549218.0
 0.55,Göksun (Kahramanmaraş),38.133,36.567,6.7,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Kömür,2023-02-17 10:25:05,False,,549206.0
 0.28,Doğanşehir (Malatya),38.032,37.746,7.0,ML,3.3,Türkiye,Malatya,Doğanşehir,Elmalı,2023-02-17 11:48:49,False,,549249.0
@@ -1818,7 +1792,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.28,Saimbeyli (Adana),37.873,36.226,6.76,ML,3.9,Türkiye,Adana,Saimbeyli,Karakuyu,2023-02-17 10:57:03,False,,549220.0
 0.59,Gölbaşı (Adıyaman),37.883,37.861,5.72,ML,3.2,Türkiye,Adıyaman,Gölbaşı,Cankara,2023-02-10 20:51:01,False,,549335.0
 0.14,Doğanşehir (Malatya),38.111,37.768,7.0,ML,3.9,Türkiye,Malatya,Doğanşehir,Fındık,2023-02-08 18:06:49,False,,549339.0
-0.86,"Chaldoran, West Azarbaijan (İran) - [41.96 km] Özalp (Van)",38.894,44.718,7.0,ML,3.5,İran,,,,2023-02-09 18:18:07,False,,549350.0
 0.81,İslahiye (Gaziantep),37.068,36.57,7.0,ML,3.3,Türkiye,Gaziantep,İslahiye,Hanağzı,2023-02-09 23:12:48,False,,549365.0
 0.53,Sincik (Adıyaman),38.079,38.601,7.38,ML,3.1,Türkiye,Adıyaman,Sincik,Sakız,2023-02-17 13:48:45,False,,549367.0
 0.53,Elbistan (Kahramanmaraş),38.477,37.216,15.53,ML,3.1,Türkiye,Kahramanmaraş,Elbistan,Karamağara,2023-02-09 23:26:30,False,,549371.0
@@ -1831,12 +1804,10 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.69,Onikişubat (Kahramanmaraş),37.955,36.565,7.0,ML,3.1,Türkiye,Kahramanmaraş,Onikişubat,Kurucaova,2023-02-17 16:38:23,False,,549452.0
 0.63,Yavuzeli (Gaziantep),37.375,37.768,6.33,ML,3.2,Türkiye,Gaziantep,Yavuzeli,Göçmez,2023-02-17 17:43:44,False,,549479.0
 0.39,Göksun (Kahramanmaraş),37.876,36.301,6.97,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Payamburnu,2023-02-17 18:15:49,False,,549491.0
-0.7,"Khoy, West Azarbaijan (İran) - [49.66 km] Başkale (Van)",38.558,44.931,7.0,ML,3.6,İran,,,,2023-02-17 19:33:45,False,,549505.0
 0.28,Merkez (Elazığ),38.627,39.665,7.0,MW,4.6,Türkiye,Elazığ,Merkez,Gedikyolu,2023-02-17 15:34:37,False,,549422.0
 0.43,Göksun (Kahramanmaraş),37.977,36.536,7.0,ML,3.7,Türkiye,Kahramanmaraş,Göksun,Aslanbeyçiftliği,2023-02-17 19:31:30,False,,549508.0
 0.44,Göksun (Kahramanmaraş),38.013,36.694,7.0,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Kızılöz,2023-02-17 19:42:09,False,,549509.0
 0.37,Göksun (Kahramanmaraş),38.085,36.538,6.95,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Alıçlıbucak,2023-02-17 19:43:34,False,,549510.0
-0.53,"Ozurgeti, Guria (Gürcistan) - [49.09 km] Borçka (Artvin)",41.906,42.146,7.0,ML,3.3,Gürcistan,,,,2023-02-17 19:44:08,False,,549514.0
 0.43,Göksun (Kahramanmaraş),37.846,36.3,7.0,ML,3.3,Türkiye,Kahramanmaraş,Göksun,Payamburnu,2023-02-17 20:45:24,False,,549530.0
 0.46,Göksun (Kahramanmaraş),38.105,36.725,6.93,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Karaömer,2023-02-17 20:59:46,False,,549534.0
 0.35,Nurhak (Kahramanmaraş),38.008,37.568,6.96,ML,3.1,Türkiye,Kahramanmaraş,Nurhak,Yeni,2023-02-17 21:30:11,False,,549543.0
@@ -1900,7 +1871,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.41,Nurdağı (Gaziantep),37.241,36.846,5.15,MW,3.5,Türkiye,Gaziantep,Nurdağı,Kırışkal,2023-02-19 04:03:40,False,,550086.0
 0.53,Türkoğlu (Kahramanmaraş),37.251,36.829,5.22,MW,3.9,Türkiye,Kahramanmaraş,Türkoğlu,Şekeroba,2023-02-19 04:06:17,False,,550088.0
 0.24,Nurdağı (Gaziantep),37.252,36.84,9.45,MW,3.7,Türkiye,Gaziantep,Nurdağı,Kırışkal,2023-02-19 04:17:03,False,,550090.0
-0.58,"Ozurgeti, Guria (Gürcistan) - [47.89 km] Borçka (Artvin)",41.888,42.172,7.0,ML,3.2,Gürcistan,,,,2023-02-19 05:18:15,False,,550126.0
 0.28,Doğanşehir (Malatya),38.013,37.615,7.0,MW,3.4,Türkiye,Malatya,Doğanşehir,Gövdeli,2023-02-19 05:55:24,False,,550134.0
 0.24,Battalgazi (Malatya),38.201,38.557,7.28,MW,3.3,Türkiye,Malatya,Battalgazi,Yaygın,2023-02-19 06:17:55,False,,550135.0
 0.36,Nurhak (Kahramanmaraş),38.011,37.436,7.0,MW,3.9,Türkiye,Kahramanmaraş,Nurhak,Karşıyaka,2023-02-19 08:08:37,False,,550169.0
@@ -2004,7 +1974,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.45,Defne (Hatay),36.205,36.067,7.02,ML,3.1,Türkiye,Hatay,Defne,Avcılar,2023-02-20 21:51:04,False,,551142.0
 0.51,Samandağ (Hatay),36.252,35.973,13.17,ML,3.2,Türkiye,Hatay,Samandağ,Ceylandere,2023-02-20 21:55:46,False,,551146.0
 0.4,Doğanşehir (Malatya),38.066,37.754,11.76,ML,3.2,Türkiye,Malatya,Doğanşehir,Elmalı,2023-02-20 22:17:49,False,,551150.0
-0.67,"Ozurgeti, Guria (Gürcistan) - [40.91 km] Şavşat (Artvin)",41.819,42.234,6.81,ML,3.3,Gürcistan,,,,2023-02-20 22:54:28,False,,551157.0
 0.23,Samandağ (Hatay),36.134,35.954,7.0,MW,4.2,Türkiye,Hatay,Samandağ,Yoğunoluk,2023-02-20 22:56:56,False,,551159.0
 0.27,Samandağ (Hatay),36.261,36.023,7.0,ML,3.3,Türkiye,Hatay,Samandağ,Seldiren,2023-02-20 23:12:32,False,,551164.0
 0.38,Samandağ (Hatay),36.221,35.974,7.0,ML,3.4,Türkiye,Hatay,Samandağ,Yeniköy,2023-02-20 23:41:45,False,,551171.0
@@ -2325,7 +2294,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.58,Refahiye (Erzincan),39.963,38.639,6.47,ML,3.3,Türkiye,Erzincan,Refahiye,Ortagöze,2023-03-02 00:16:11,False,,556766.0
 0.23,Kandil Barajı - [04.35 km] Ekinözü (Kahramanmaraş),38.079,37.034,5.66,MW,3.8,Türkiye,Kahramanmaraş,Ekinözü,Soysallı,2023-03-02 01:18:46,False,,556781.0
 0.31,Türkoğlu (Kahramanmaraş),37.304,37.025,7.6,ML,4.3,Türkiye,Kahramanmaraş,Türkoğlu,Cennetpınarı,2023-03-01 16:38:00,False,,556555.0
-0.92,"Ninotsminda, Samtskhe-Javakheti (Gürcistan) - [42.85 km] Akyaka (Kars)",41.304,43.858,4.31,MW,4.1,Gürcistan,,,,2023-03-01 10:52:36,False,,556451.0
 0.23,Antakya (Hatay),36.383,36.275,7.0,ML,3.5,Türkiye,Hatay,Antakya,Aşağıoba,2023-03-02 05:57:28,False,,556890.0
 0.53,Ekinözü (Kahramanmaraş),38.043,37.148,7.0,ML,3.2,Türkiye,Kahramanmaraş,Ekinözü,Öztürk,2023-03-02 06:05:54,True,3/2/2023 6:23:02 AM,556895.0
 0.46,Sincik (Adıyaman),38.137,38.499,7.02,ML,3.4,Türkiye,Adıyaman,Sincik,Aksu,2023-03-02 06:29:49,False,,556906.0
@@ -2354,7 +2322,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.5,Nurhak (Kahramanmaraş),37.989,37.433,7.02,ML,4.9,Türkiye,Kahramanmaraş,Nurhak,Kıyılar,2023-02-06 10:34:48,True,3/3/2023 10:34:47 AM,547300.0
 0.5,Ege Denizi - [27.06 km] Çeşme (İzmir),38.128,26.012,11.54,MW,3.6,Türkiye,İzmir,Çeşme,,2023-02-15 05:10:52,False,,557690.0
 0.38,Doğanşehir (Malatya),38.021,37.625,7.0,ML,4.6,Türkiye,Malatya,Doğanşehir,Gövdeli,2023-02-06 10:56:24,True,3/3/2023 11:58:03 AM,547752.0
-0.08,"Cisr eş Şuğur, İdlib (Suriye) - [02.87 km] Altınözü (Hatay)",36.001,36.305,7.0,ML,3.2,Suriye,,,,2023-02-15 05:53:55,False,,557721.0
 0.51,İslahiye (Gaziantep),36.919,36.575,6.96,MW,4.6,Türkiye,Gaziantep,İslahiye,Sulumağara,2023-02-13 11:59:17,True,3/3/2023 12:09:58 PM,546610.0
 0.36,Göksun (Kahramanmaraş),38.046,36.617,7.0,MW,4.6,Türkiye,Kahramanmaraş,Göksun,Kale,2023-02-12 22:52:59,True,3/3/2023 12:36:27 PM,546377.0
 0.38,Göksun (Kahramanmaraş),37.86,36.289,8.56,MW,4.2,Türkiye,Kahramanmaraş,Göksun,Payamburnu,2023-02-13 15:15:03,True,3/3/2023 1:21:52 PM,546657.0
@@ -2365,7 +2332,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.38,Çelikhan (Adıyaman),38.091,38.452,8.1,ML,3.2,Türkiye,Adıyaman,Çelikhan,Karaköse,2023-03-03 20:45:01,False,,557886.0
 0.59,Göksun (Kahramanmaraş),38.026,36.562,7.02,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Yantepe,2023-03-03 21:48:48,False,,557901.0
 0.61,Erzin (Hatay),36.987,36.045,7.0,ML,3.2,Türkiye,Hatay,Erzin,Turunçlu,2023-03-03 22:25:17,False,,557913.0
-0.89,"Khoy, West Azarbaijan (İran) - [47.33 km] Başkale (Van)",38.497,44.934,7.0,MW,3.8,İran,,,,2023-03-03 23:17:53,False,,557924.0
 0.45,Göksun (Kahramanmaraş),37.994,36.569,7.0,MW,3.6,Türkiye,Kahramanmaraş,Göksun,Yantepe,2023-03-03 23:30:46,False,,557926.0
 0.56,Hekimhan (Malatya),38.86,38.091,9.07,MW,3.6,Türkiye,Malatya,Hekimhan,Ballıkaya,2023-03-04 05:26:19,False,,558009.0
 0.32,Doğanşehir (Malatya),38.109,37.871,6.95,ML,3.1,Türkiye,Malatya,Doğanşehir,Yolkoru,2023-03-04 06:15:50,False,,558026.0
@@ -2569,7 +2535,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.44,Çelikhan (Adıyaman),38.07,38.237,10.19,ML,4.0,Türkiye,Adıyaman,Çelikhan,Gölbağı,2023-02-10 09:02:49,False,,545213.0
 0.53,Göksun (Kahramanmaraş),38.029,36.485,6.64,ML,3.5,Türkiye,Kahramanmaraş,Göksun,Yeni,2023-03-12 13:01:21,False,,561917.0
 0.25,Merkez (Bolu),40.863,31.795,7.14,MW,3.7,Türkiye,Bolu,Merkez,Merkeşler,2023-03-12 13:31:58,False,,561921.0
-0.66,Haseke (Suriye) - [92.54 km] Nusaybin (Mardin),36.234,41.2,4.46,MW,3.6,Suriye,,,,2023-03-12 13:54:19,False,,561929.0
 0.36,Dulkadiroğlu (Kahramanmaraş),37.498,37.042,9.59,ML,3.3,Türkiye,Kahramanmaraş,Dulkadiroğlu,Çiğli,2023-03-12 15:30:06,False,,561950.0
 0.25,Elbistan (Kahramanmaraş),38.181,37.05,4.08,ML,3.4,Türkiye,Kahramanmaraş,Elbistan,Kalealtı,2023-03-12 16:52:31,False,,561971.0
 0.34,Dulkadiroğlu (Kahramanmaraş),37.452,37.073,8.99,ML,3.2,Türkiye,Kahramanmaraş,Dulkadiroğlu,Çınarlı,2023-03-12 16:38:15,False,,561973.0
@@ -2661,14 +2626,12 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.61,Ekinözü (Kahramanmaraş),38.074,37.196,7.0,ML,3.4,Türkiye,Kahramanmaraş,Ekinözü,Öztürk,2023-03-16 22:24:32,False,,563899.0
 0.46,Göksun (Kahramanmaraş),38.002,36.539,7.19,MW,3.5,Türkiye,Kahramanmaraş,Göksun,Aslanbeyçiftliği,2023-03-16 23:32:09,False,,563916.0
 0.36,Çelikhan (Adıyaman),38.027,38.392,7.5,ML,3.1,Türkiye,Adıyaman,Çelikhan,Yağızatlı,2023-03-17 00:56:39,False,,563926.0
-0.54,"Khoy, West Azarbaijan (İran) - [50.78 km] Başkale (Van)",38.444,45.0,2.81,ML,3.5,İran,,,,2023-03-17 01:29:17,False,,563956.0
 0.57,Göksun (Kahramanmaraş),38.005,36.522,7.0,MW,4.1,Türkiye,Kahramanmaraş,Göksun,Cumhuriyet,2023-03-17 01:41:12,False,,563931.0
 0.64,Akdeniz - Mersin Körfezi - [11.47 km] Erdemli (Mersin),36.438,34.289,16.04,MW,4.3,Türkiye,Mersin,Erdemli,,2023-03-16 19:59:13,False,,563872.0
 0.87,Akdeniz - İskenderun Körfezi - [09.05 km] Yumurtalık (Adana),36.732,35.889,7.27,MW,4.1,Türkiye,Adana,Yumurtalık,Suçatı,2023-02-06 21:39:39,True,4/3/2023 10:03:38 AM,548026.0
 0.26,Merkez (Bolu),40.814,31.527,7.0,MW,3.3,Türkiye,Bolu,Merkez,Demirciler Mücavir,2023-03-17 11:00:37,False,,564090.0
 0.3,Merkez (Bolu),40.795,31.532,8.09,MW,3.2,Türkiye,Bolu,Merkez,Demirciler Mücavir,2023-03-17 11:01:53,False,,564092.0
 0.27,Battalgazi (Malatya),38.276,38.634,11.22,MW,4.3,Türkiye,Malatya,Battalgazi,Kavaklıdere,2023-02-06 03:22:43,True,3/17/2023 2:08:38 PM,543462.0
-0.7,"Khoy, West Azarbaijan (İran) - [43.21 km] Başkale (Van)",38.413,44.921,7.0,MW,3.7,İran,,,,2023-03-17 13:23:17,False,,564147.0
 0.57,Onikişubat (Kahramanmaraş),37.809,36.584,7.0,MW,3.9,Türkiye,Kahramanmaraş,Onikişubat,Çukurhisar,2023-03-17 18:20:40,False,,564253.0
 0.47,Yeşilyurt (Malatya),38.306,38.252,12.57,ML,3.1,Türkiye,Malatya,Yeşilyurt,Gedik,2023-03-17 22:10:56,False,,564362.0
 0.33,Onikişubat (Kahramanmaraş),37.855,36.619,7.05,MW,3.9,Türkiye,Kahramanmaraş,Onikişubat,Çevrepınar,2023-03-18 01:40:04,False,,564424.0
@@ -2756,9 +2719,7 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.48,Göksun (Kahramanmaraş),38.016,36.469,6.39,MW,3.7,Türkiye,Kahramanmaraş,Göksun,Yeni,2023-03-23 19:48:38,False,,566690.0
 0.23,Battalgazi (Malatya),38.144,38.591,6.98,ML,3.4,Türkiye,Malatya,Battalgazi,Tekederesi,2023-03-23 19:55:06,False,,566691.0
 0.38,Göksun (Kahramanmaraş),38.101,36.632,7.0,MW,3.7,Türkiye,Kahramanmaraş,Göksun,Kanlıkavak,2023-03-23 21:17:06,False,,566735.0
-0.92,"Khoy, West Azarbaijan (İran) - [42.39 km] Başkale (Van)",38.336,44.925,7.0,ML,3.3,İran,,,,2023-03-24 03:31:47,False,,566834.0
 0.45,Göksun (Kahramanmaraş),38.021,36.416,7.34,MW,4.7,Türkiye,Kahramanmaraş,Göksun,Acıelma,2023-03-24 00:39:53,False,,566783.0
-0.85,"Khoy, West Azarbaijan (İran) - [29.34 km] Başkale (Van)",38.37,44.77,7.0,MW,5.6,İran,,,,2023-03-24 03:16:56,False,,566827.0
 0.35,Nurdağı (Gaziantep),37.172,36.922,4.92,ML,3.3,Türkiye,Gaziantep,Nurdağı,Sakçagözü,2023-03-24 06:33:48,False,,566886.0
 0.44,Göksun (Kahramanmaraş),38.037,36.489,7.01,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Hacımirza,2023-03-24 07:08:15,False,,566889.0
 0.28,Yeşilyurt (Malatya),38.267,38.284,9.61,ML,3.5,Türkiye,Malatya,Yeşilyurt,Gündüzbey,2023-03-24 07:41:22,False,,566916.0
@@ -2871,7 +2832,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.39,Akçadağ (Malatya),38.293,37.831,8.8,ML,3.1,Türkiye,Malatya,Akçadağ,Ortaköy,2023-04-02 13:45:19,False,,570679.0
 0.74,Saimbeyli (Adana),37.94,36.24,7.0,MW,3.8,Türkiye,Adana,Saimbeyli,Aksaağaç,2023-04-02 15:32:44,False,,570691.0
 0.23,Pütürge (Malatya),38.251,38.675,10.6,ML,3.9,Türkiye,Malatya,Pütürge,Poskıran,2023-04-02 19:04:48,False,,570727.0
-0.45,"Kamışlı, Haseke (Suriye) - [34.44 km] Nusaybin (Mardin)",36.776,41.413,14.08,MW,3.8,Suriye,,,,2023-04-02 16:18:54,False,,570700.0
 0.48,Onikişubat (Kahramanmaraş),37.794,36.583,6.5,ML,3.4,Türkiye,Kahramanmaraş,Onikişubat,Çukurhisar,2023-04-02 16:28:53,False,,570701.0
 0.4,Doğanşehir (Malatya),37.941,37.66,12.58,ML,3.3,Türkiye,Malatya,Doğanşehir,Hamzalar,2023-04-02 17:45:45,False,,570713.0
 0.34,Onikişubat (Kahramanmaraş),37.839,36.623,10.83,ML,3.4,Türkiye,Kahramanmaraş,Onikişubat,Çevrepınar,2023-04-02 17:35:39,False,,570714.0
@@ -2886,7 +2846,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.35,Yeşilyurt (Malatya),38.182,38.022,10.32,ML,3.1,Türkiye,Malatya,Yeşilyurt,Gözene,2023-04-04 06:13:31,False,,571287.0
 0.41,Akçadağ (Malatya),38.467,38.024,7.0,ML,3.5,Türkiye,Malatya,Akçadağ,Yukarıörükçü,2023-04-04 04:00:27,False,,571252.0
 0.33,Dicle (Diyarbakır),38.431,40.136,11.52,MW,4.0,Türkiye,Diyarbakır,Dicle,Kırkpınar,2023-02-22 03:04:44,True,2/22/2023 7:53:11 AM,552018.0
-0.59,"Al Hamdaniyah, Ninova (Irak) - [107.76 km] Şemdinli (Hakkari)",36.276,43.474,16.15,MW,4.3,Irak,,,,2023-02-24 23:25:28,True,2/24/2023 11:36:33 PM,553885.0
 0.55,Genç (Bingöl),38.528,40.339,14.27,MW,4.1,Türkiye,Bingöl,Genç,Sarıbudak,2023-03-04 20:59:40,False,,558296.0
 0.57,İslahiye (Gaziantep),37.054,36.62,6.99,ML,3.2,Türkiye,Gaziantep,İslahiye,Hanağzı,2023-04-04 09:04:16,False,,571323.0
 0.3,Saimbeyli (Adana),37.922,36.208,6.93,ML,3.1,Türkiye,Adana,Saimbeyli,Aksaağaç,2023-04-04 10:35:38,False,,571330.0
@@ -2929,7 +2888,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.68,Merkez (Bingöl),39.073,40.393,22.25,ML,3.3,Türkiye,Bingöl,Merkez,Akbudak,2023-04-07 09:10:02,False,,572373.0
 0.33,"Ege Denizi, Midilli Adası (Lesvos) - [14.79 km] Ayvacık (Çanakkale)",39.369,26.267,12.86,ML,3.3,Türkiye,Çanakkale,Ayvacık,,2023-04-07 22:54:18,False,,572632.0
 0.55,Genç (Bingöl),38.825,40.753,13.05,MW,3.7,Türkiye,Bingöl,Genç,Yağızca,2023-04-07 17:01:52,False,,572546.0
-0.84,Haseke (Suriye) - [65.83 km] Ceylanpınar (Şanlıurfa),36.254,39.951,5.54,ML,3.2,Suriye,,,,2023-04-07 16:21:26,False,,572547.0
 0.25,Gölbaşı (Adıyaman),37.872,37.804,7.58,ML,3.2,Türkiye,Adıyaman,Gölbaşı,Cankara,2023-04-07 17:50:02,False,,572553.0
 0.37,Gölbaşı (Adıyaman),37.862,37.795,8.01,MW,3.3,Türkiye,Adıyaman,Gölbaşı,Yeni,2023-04-07 17:48:04,True,4/7/2023 5:58:42 PM,572552.0
 0.19,Onikişubat (Kahramanmaraş),37.919,36.634,7.0,ML,3.1,Türkiye,Kahramanmaraş,Onikişubat,Döngel,2023-04-08 03:23:30,False,,572686.0
@@ -2996,14 +2954,12 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.46,Pütürge (Malatya),38.266,38.789,7.0,ML,3.3,Türkiye,Malatya,Pütürge,Pazarcık,2023-04-14 09:17:19,False,,574847.0
 0.35,Saimbeyli (Adana),37.918,36.201,14.92,ML,3.9,Türkiye,Adana,Saimbeyli,Aksaağaç,2023-04-14 11:44:11,False,,574854.0
 0.53,Sincik (Adıyaman),38.118,38.567,7.0,MW,4.3,Türkiye,Adıyaman,Sincik,Arıkonak,2023-04-13 13:26:58,False,,574582.0
-0.59,"Khoy, West Azarbaijan (İran) - [48.60 km] Başkale (Van)",38.524,44.937,7.0,ML,3.1,İran,,,,2023-04-14 19:51:43,False,,574959.0
 0.17,Gölbaşı (Adıyaman),37.863,37.865,7.0,ML,3.1,Türkiye,Adıyaman,Gölbaşı,Cankara,2023-04-14 22:59:27,False,,574993.0
 0.36,Doğanşehir (Malatya),38.169,37.893,12.04,ML,3.3,Türkiye,Malatya,Doğanşehir,Polat,2023-04-11 10:15:35,False,,573635.0
 0.5,Çelikhan (Adıyaman),38.092,38.225,5.36,MW,3.5,Türkiye,Adıyaman,Çelikhan,Çampınar,2023-04-15 09:21:42,False,,575092.0
 0.15,Van Gölü - [02.19 km] Tuşba (Van),38.918,43.525,7.0,ML,3.1,Türkiye,Van,Tuşba,Çolpan,2023-04-15 12:40:02,False,,575117.0
 0.39,Dulkadiroğlu (Kahramanmaraş),37.527,37.137,7.0,ML,3.5,Türkiye,Kahramanmaraş,Dulkadiroğlu,Elmalar,2023-04-15 14:37:06,False,,575142.0
 0.39,Elbistan (Kahramanmaraş),38.184,37.557,7.0,ML,3.1,Türkiye,Kahramanmaraş,Elbistan,Kantarma,2023-04-15 16:46:02,False,,575182.0
-0.63,"Maku, West Azarbaijan (İran) - [27.86 km] Doğubayazıt (Ağrı)",39.455,44.726,7.0,MW,4.3,İran,,,,2023-04-11 10:30:45,False,,573636.0
 0.25,Pütürge (Malatya),38.229,38.706,5.68,ML,3.3,Türkiye,Malatya,Pütürge,Çayköy,2023-04-15 22:50:18,False,,575298.0
 0.6,Saimbeyli (Adana),37.904,36.238,7.07,MW,3.5,Türkiye,Adana,Saimbeyli,Aksaağaç,2023-04-16 15:48:51,False,,575500.0
 0.37,Göksun (Kahramanmaraş),38.054,36.771,8.02,ML,3.9,Türkiye,Kahramanmaraş,Göksun,Korkmaz,2023-04-16 22:55:56,False,,575560.0
@@ -3014,7 +2970,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.41,Dulkadiroğlu (Kahramanmaraş),37.609,37.202,7.03,MW,4.1,Türkiye,Kahramanmaraş,Dulkadiroğlu,Kazanlıpınar,2023-04-15 21:51:01,False,,575275.0
 0.49,Çaldıran (Van),39.198,43.848,7.0,MW,4.0,Türkiye,Van,Çaldıran,Kuskunkıran,2023-04-17 04:07:18,False,,575616.0
 0.25,Pütürge (Malatya),38.201,38.706,12.8,ML,3.4,Türkiye,Malatya,Pütürge,Alihan,2023-04-17 06:39:07,False,,575637.0
-0.29,"Afrin, Halep (Suriye) - [06.26 km] Kırıkhan (Hatay)",36.467,36.592,5.68,ML,3.6,Suriye,,,,2023-04-17 15:54:32,False,,575728.0
 0.42,Göksun (Kahramanmaraş),38.016,36.489,6.28,MW,4.2,Türkiye,Kahramanmaraş,Göksun,Yeni,2023-03-23 10:04:55,True,3/23/2023 10:16:38 AM,566507.0
 0.33,Göksun (Kahramanmaraş),38.006,36.469,7.0,MW,4.4,Türkiye,Kahramanmaraş,Göksun,Yeni,2023-03-19 12:54:25,True,3/19/2023 1:05:45 PM,565004.0
 0.38,Göksun (Kahramanmaraş),38.084,36.632,7.0,MW,4.1,Türkiye,Kahramanmaraş,Göksun,Gücüksu,2023-02-22 04:40:01,False,,552073.0
@@ -3026,7 +2981,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.43,Toprakkale (Osmaniye),37.058,36.109,16.43,ML,3.3,Türkiye,Osmaniye,Toprakkale,Sazlık,2023-04-19 05:26:20,False,,576393.0
 0.29,Nurdağı (Gaziantep),37.185,36.727,7.01,ML,3.6,Türkiye,Gaziantep,Nurdağı,Kurudere,2023-04-19 15:09:28,False,,576605.0
 0.41,Saimbeyli (Adana),37.836,36.231,10.58,MW,3.6,Türkiye,Adana,Saimbeyli,Karakuyu,2023-04-19 16:42:20,False,,576624.0
-0.5,"Maku, West Azarbaijan (İran) - [07.80 km] Doğubayazıt (Ağrı)",39.439,44.494,8.94,ML,3.3,İran,,,,2023-04-18 11:23:49,False,,576101.0
 0.5,Göksun (Kahramanmaraş),37.859,36.303,7.71,MW,3.8,Türkiye,Kahramanmaraş,Göksun,Payamburnu,2023-04-19 18:18:32,False,,576645.0
 0.43,Nurhak (Kahramanmaraş),37.992,37.484,7.05,ML,3.1,Türkiye,Kahramanmaraş,Nurhak,Karşıyaka,2023-04-19 20:10:46,False,,576671.0
 0.42,Ege Denizi - [06.57 km] Ayvacık (Çanakkale),39.433,26.181,10.13,ML,3.1,Türkiye,Çanakkale,Ayvacık,,2023-04-20 00:53:23,False,,576778.0
@@ -3046,14 +3000,12 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.2,Merkez (Elazığ),38.573,39.706,6.24,ML,3.1,Türkiye,Elazığ,Merkez,Halil Ağa,2023-04-22 11:15:22,False,,577643.0
 0.58,Elbistan (Kahramanmaraş),38.223,37.171,7.01,ML,3.1,Türkiye,Kahramanmaraş,Elbistan,Bahçelievler,2023-04-22 12:09:56,False,,577648.0
 0.39,Ula (Muğla),37.104,28.452,6.99,MW,3.9,Türkiye,Muğla,Ula,Alparslan,2023-04-22 20:38:19,False,,577709.0
-0.42,"Maku, West Azarbaijan (İran) - [12.70 km] Doğubayazıt (Ağrı)",39.439,44.551,7.0,ML,3.2,İran,,,,2023-04-22 23:02:01,False,,577735.0
 0.35,Ula (Muğla),37.093,28.469,7.0,ML,3.9,Türkiye,Muğla,Ula,Alparslan,2023-04-23 03:40:06,False,,577768.0
 0.62,Ula (Muğla),37.121,28.422,12.43,ML,3.2,Türkiye,Muğla,Ula,Köprübaşı,2023-04-23 05:46:01,False,,577783.0
 0.62,Elbistan (Kahramanmaraş),38.308,37.359,8.43,ML,3.5,Türkiye,Kahramanmaraş,Elbistan,Gündere,2023-04-23 14:47:30,False,,577922.0
 0.53,Karadeniz - [66.26 km] Çarşamba (Samsun),41.941,36.942,12.19,ML,3.2,Türkiye,Samsun,Çarşamba,,2023-04-23 15:55:08,False,,577932.0
 0.31,Susurluk (Balıkesir),39.967,28.098,10.83,ML,3.1,Türkiye,Balıkesir,Susurluk,Günaydın,2023-04-23 18:23:52,False,,577952.0
 0.52,Elbistan (Kahramanmaraş),38.342,37.539,8.52,ML,3.8,Türkiye,Kahramanmaraş,Elbistan,Yoğunsöğüt,2023-04-23 18:43:27,False,,577962.0
-0.35,"Maku, West Azarbaijan (İran) - [15.18 km] Doğubayazıt (Ağrı)",39.459,44.576,7.0,ML,3.3,İran,,,,2023-04-23 18:41:59,False,,577964.0
 0.29,Çelikhan (Adıyaman),38.088,38.408,10.23,ML,3.3,Türkiye,Adıyaman,Çelikhan,Karagöl,2023-04-24 02:54:53,False,,578074.0
 0.41,Göksun (Kahramanmaraş),38.067,36.62,7.0,ML,3.3,Türkiye,Kahramanmaraş,Göksun,Hacıömer,2023-04-24 07:12:18,False,,578121.0
 0.56,Göynücek (Amasya),40.459,35.652,7.0,ML,3.3,Türkiye,Amasya,Göynücek,Ayvalıpınar,2023-04-24 08:06:56,False,,578139.0
@@ -3099,7 +3051,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.6,Doğanşehir (Malatya),38.125,37.803,11.44,ML,3.4,Türkiye,Malatya,Doğanşehir,Fındık,2023-04-29 17:22:53,False,,579836.0
 0.63,Göksun (Kahramanmaraş),38.041,36.464,7.02,ML,3.7,Türkiye,Kahramanmaraş,Göksun,Çağlayan,2023-04-29 17:58:29,False,,579847.0
 0.35,Saimbeyli (Adana),37.851,36.219,6.98,MW,3.9,Türkiye,Adana,Saimbeyli,Karakuyu,2023-04-29 19:48:33,False,,579861.0
-0.8,"Tel Abyad, Rakka (Suriye) - [20.29 km] Akçakale (Şanlıurfa)",36.52,39.067,7.0,ML,3.1,Suriye,,,,2023-04-29 21:02:28,False,,579870.0
 0.26,Doğanşehir (Malatya),38.027,37.615,7.19,ML,3.2,Türkiye,Malatya,Doğanşehir,Gövdeli,2023-04-30 02:23:44,False,,579931.0
 0.25,Merkez (Düzce),40.818,31.073,5.2,ML,3.5,Türkiye,Düzce,Merkez,Paşakonağı,2023-04-30 04:02:54,False,,579942.0
 0.3,Akçadağ (Malatya),38.298,37.799,7.22,ML,3.1,Türkiye,Malatya,Akçadağ,Ortaköy,2023-04-30 15:31:36,False,,580016.0
@@ -3171,7 +3122,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.61,İslahiye (Gaziantep),37.059,36.622,7.0,ML,3.2,Türkiye,Gaziantep,İslahiye,Hanağzı,2023-05-10 03:24:44,False,,582791.0
 0.35,Yeşilyurt (Malatya),38.286,38.298,11.16,MW,3.4,Türkiye,Malatya,Yeşilyurt,Yeni,2023-05-11 10:08:01,False,,583087.0
 0.36,Yeşilyurt (Malatya),38.291,38.289,12.17,ML,3.1,Türkiye,Malatya,Yeşilyurt,Yeni,2023-05-11 10:08:01,False,,583088.0
-0.61,"Maku, West Azarbaijan (İran) - [21.00 km] Aralık (Iğdır)",39.637,44.651,7.0,MW,3.8,İran,,,,2023-05-11 16:17:43,False,,583167.0
 0.19,Defne (Hatay),36.235,36.091,7.97,ML,3.1,Türkiye,Hatay,Defne,Ballıöz,2023-05-10 04:04:18,False,,582799.0
 0.49,Saimbeyli (Adana),37.899,36.206,12.14,ML,3.4,Türkiye,Adana,Saimbeyli,Aksaağaç,2023-05-12 00:54:08,False,,583246.0
 0.24,Saimbeyli (Adana),37.855,36.203,7.0,ML,3.1,Türkiye,Adana,Saimbeyli,Karakuyu,2023-05-12 06:11:13,False,,583289.0
@@ -3207,7 +3157,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.44,Göksun (Kahramanmaraş),38.076,36.563,10.8,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Ortatepe,2023-05-16 06:15:56,False,,584352.0
 0.37,Aşkale (Erzurum),39.761,40.62,7.0,ML,3.2,Türkiye,Erzurum,Aşkale,Akören,2023-05-16 12:05:52,False,,584435.0
 0.43,Göksun (Kahramanmaraş),37.862,36.359,7.0,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Küçükçamurlu,2023-03-19 00:24:10,False,,584653.0
-0.96,"Kobuleti, Acara (Gürcistan) - [36.08 km] Borçka (Artvin)",41.792,42.105,7.0,MW,3.5,Gürcistan,,,,2023-05-17 04:30:05,False,,584628.0
 0.23,Aşkale (Erzurum),39.863,40.872,7.0,ML,3.2,Türkiye,Erzurum,Aşkale,Kandilli,2023-05-17 08:37:50,False,,584669.0
 0.31,Göksun (Kahramanmaraş),37.989,36.327,7.0,ML,3.2,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-05-17 12:51:49,False,,584714.0
 0.4,Yahyalı (Kayseri),37.857,35.309,6.97,ML,3.1,Türkiye,Kayseri,Yahyalı,Ulupınar,2023-05-17 21:44:23,False,,584825.0
@@ -3226,7 +3175,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.26,Yeşilyurt (Malatya),38.169,38.29,7.0,ML,3.1,Türkiye,Malatya,Yeşilyurt,Ortaköy,2023-05-20 06:06:15,False,,585358.0
 0.18,Battalgazi (Malatya),38.162,38.603,7.1,ML,3.5,Türkiye,Malatya,Battalgazi,Tekederesi,2023-05-20 09:16:01,False,,585365.0
 0.39,Erzin (Hatay),36.977,36.074,7.0,ML,3.2,Türkiye,Hatay,Erzin,Turunçlu,2023-05-20 20:10:20,False,,585422.0
-0.41,"Talafar, Ninova (Irak) - [53.83 km] Silopi (Şırnak)",36.656,42.568,6.06,ML,3.4,Irak,,,,2023-05-20 12:20:56,False,,585374.0
 0.37,Saimbeyli (Adana),37.895,36.277,7.0,ML,3.5,Türkiye,Adana,Saimbeyli,Topallar,2023-05-21 01:40:02,False,,585469.0
 0.2,Pütürge (Malatya),38.264,38.744,9.09,ML,3.2,Türkiye,Malatya,Pütürge,Balpınarı,2023-05-21 02:26:59,False,,585485.0
 0.45,Saimbeyli (Adana),37.908,36.271,7.53,ML,3.1,Türkiye,Adana,Saimbeyli,Topallar,2023-05-21 13:19:33,False,,585573.0
@@ -3277,7 +3225,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.19,Pütürge (Malatya),38.286,38.754,13.71,ML,3.1,Türkiye,Malatya,Pütürge,Pazarcık,2023-05-28 04:26:18,False,,587037.0
 0.41,Türkoğlu (Kahramanmaraş),37.395,36.897,6.74,MW,3.6,Türkiye,Kahramanmaraş,Türkoğlu,Kılılı,2023-05-28 05:51:19,False,,587045.0
 0.32,Göksun (Kahramanmaraş),38.142,36.644,9.66,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Yeniyapan,2023-05-28 22:05:42,False,,587183.0
-0.62,"Sinjar, Ninova (Irak) - [79.22 km] Nusaybin (Mardin)",36.41,41.82,7.22,MW,3.5,Irak,,,,2023-05-28 23:23:39,False,,587196.0
 0.5,Elbistan (Kahramanmaraş),38.288,37.212,7.0,ML,3.6,Türkiye,Kahramanmaraş,Elbistan,Küçükyapalak,2023-05-29 02:51:59,False,,587216.0
 0.19,Göksun (Kahramanmaraş),38.109,36.553,6.98,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Çamdere,2023-05-29 03:09:55,False,,587220.0
 0.57,Akdeniz - [08.25 km] Samandağ (Hatay),36.151,35.852,17.33,MW,3.7,Türkiye,Hatay,Samandağ,,2023-05-29 06:47:02,False,,587249.0
@@ -3378,14 +3325,12 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.34,Gölbaşı (Adıyaman),37.872,37.817,9.62,ML,3.2,Türkiye,Adıyaman,Gölbaşı,Cankara,2023-06-17 15:00:43,False,,591072.0
 0.19,Çağlayancerit (Kahramanmaraş),37.706,37.459,7.0,ML,3.4,Türkiye,Kahramanmaraş,Çağlayancerit,Bozlar,2023-06-17 10:56:04,False,,591037.0
 0.28,Battalgazi (Malatya),38.161,38.456,10.14,ML,3.2,Türkiye,Malatya,Battalgazi,Aksu,2023-06-17 22:09:59,False,,591141.0
-0.72,"Khoy, West Azarbaijan (İran) - [50.82 km] Başkale (Van)",38.484,44.983,7.0,ML,3.1,İran,,,,2023-06-17 22:12:09,False,,591142.0
 0.43,Saimbeyli (Adana),37.855,36.21,10.15,MW,4.0,Türkiye,Adana,Saimbeyli,Karakuyu,2023-06-18 20:59:21,False,,591305.0
 0.48,Göksun (Kahramanmaraş),38.044,36.6,11.34,ML,3.5,Türkiye,Kahramanmaraş,Göksun,Kale,2023-06-18 04:56:17,False,,591219.0
 0.59,Akçadağ (Malatya),38.285,37.839,5.26,ML,3.6,Türkiye,Malatya,Akçadağ,Ortaköy,2023-06-18 06:22:03,False,,591230.0
 0.59,Elbistan (Kahramanmaraş),38.064,37.506,5.86,ML,3.2,Türkiye,Kahramanmaraş,Elbistan,Karahasanuşağı,2023-06-18 08:07:35,False,,591240.0
 0.57,Göksun (Kahramanmaraş),37.945,36.325,7.0,MW,4.0,Türkiye,Kahramanmaraş,Göksun,Hacıkodal,2023-06-19 01:21:35,False,,591335.0
 0.41,Göksun (Kahramanmaraş),37.936,36.312,7.0,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Hacıkodal,2023-06-19 02:15:39,False,,591345.0
-0.88,"Khoy, West Azarbaijan (İran) - [32.21 km] Özalp (Van)",38.837,44.622,7.0,MW,4.1,İran,,,,2023-06-19 10:15:37,False,,591408.0
 0.3,Göksun (Kahramanmaraş),37.991,36.552,7.02,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Aslanbeyçiftliği,2023-06-19 18:59:22,False,,591469.0
 0.26,Aşkale (Erzurum),39.924,40.736,7.14,ML,3.2,Türkiye,Erzurum,Aşkale,Meydan,2023-06-19 11:20:28,False,,591425.0
 0.59,Defne (Hatay),36.092,36.086,12.67,ML,3.1,Türkiye,Hatay,Defne,Sinanlı,2023-06-19 12:32:32,False,,591437.0
@@ -3410,7 +3355,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.56,Pazarcık (Kahramanmaraş),37.25,37.03,6.54,ML,3.1,Türkiye,Kahramanmaraş,Pazarcık,Karahüyük,2023-06-25 18:27:22,False,,592526.0
 0.59,Merkez (Çankırı),40.519,33.854,7.01,ML,3.1,Türkiye,Çankırı,Merkez,Ovacık,2023-06-25 22:34:54,False,,592544.0
 0.39,Buca (İzmir),38.339,27.194,10.78,ML,3.3,Türkiye,İzmir,Buca,Zafer,2023-06-26 03:37:37,False,,592559.0
-0.28,"Amedi, Duhok (Irak) - [14.08 km] Çukurca (Hakkari)",37.192,43.386,12.12,MW,4.7,Irak,,,,2023-06-26 06:41:29,False,,592594.0
 0.45,Saimbeyli (Adana),37.896,36.244,7.76,ML,3.5,Türkiye,Adana,Saimbeyli,Karakuyu,2023-06-24 16:03:39,False,,592360.0
 0.69,Kelkit (Gümüşhane),40.001,39.66,7.0,ML,3.4,Türkiye,Gümüşhane,Kelkit,Doğankavak,2023-06-26 06:45:29,False,,592595.0
 0.27,Saimbeyli (Adana),37.894,36.248,7.51,MW,3.8,Türkiye,Adana,Saimbeyli,Karakuyu,2023-06-27 02:08:43,False,,592736.0
@@ -3442,7 +3386,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.79,Akdeniz - [04.30 km] Samandağ (Hatay),36.104,35.888,23.45,ML,3.6,Türkiye,Hatay,Samandağ,,2023-07-03 06:31:50,False,,593596.0
 0.36,Merkez (Bitlis),38.395,42.174,13.09,ML,3.2,Türkiye,Bitlis,Merkez,Tabanözü,2023-07-03 21:11:56,False,,593659.0
 0.43,Elbistan (Kahramanmaraş),38.079,37.256,7.0,ML,3.4,Türkiye,Kahramanmaraş,Elbistan,Gümüşdöven,2023-07-03 10:59:05,False,,593614.0
-0.56,Shirak (Ermenistan) - [34.42 km] Akyaka (Kars),41.136,43.955,11.57,MW,3.4,Ermenistan,,,,2023-07-04 08:04:14,False,,593685.0
 0.29,Sivrice (Elazığ),38.456,39.129,13.72,MW,3.4,Türkiye,Elazığ,Sivrice,Molla Hüseyin,2023-07-05 14:12:14,False,,593824.0
 0.68,Göksun (Kahramanmaraş),38.034,36.633,6.97,MW,3.6,Türkiye,Kahramanmaraş,Göksun,Elmalı,2023-07-05 05:55:12,False,,593795.0
 0.51,Korgun (Çankırı),40.743,33.568,7.0,MW,3.1,Türkiye,Çankırı,Korgun,İkiçam,2023-07-05 05:50:36,False,,593796.0
@@ -3551,7 +3494,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.29,Çelikhan (Adıyaman),38.104,38.452,7.01,MW,4.1,Türkiye,Adıyaman,Çelikhan,Karaköse,2023-06-22 05:21:02,False,,591887.0
 0.98,Tuşba (Van),38.739,43.258,11.91,ML,3.2,Türkiye,Van,Tuşba,Dağönü,2023-08-08 00:48:05,False,,598070.0
 0.3,Hazar Gölü - [01.92 km] Maden (Elazığ),38.492,39.475,7.01,ML,3.7,Türkiye,Elazığ,Maden,Plajköy,2023-08-08 13:47:02,False,,598171.0
-0.75,Haseke (Suriye) - [113.68 km] Kızıltepe (Mardin),36.004,40.798,18.43,ML,3.1,Suriye,,,,2023-08-09 02:35:58,False,,598214.0
 0.25,Sivrice (Elazığ),38.423,39.213,7.75,MW,4.1,Türkiye,Elazığ,Sivrice,Yedipınar,2023-06-27 12:40:06,True,6/27/2023 12:45:45 PM,592799.0
 0.57,Göksun (Kahramanmaraş),37.963,36.285,7.0,MW,3.8,Türkiye,Kahramanmaraş,Göksun,Kazandere,2023-08-09 05:10:23,False,,598229.0
 0.4,İslahiye (Gaziantep),36.985,36.586,7.18,ML,3.5,Türkiye,Gaziantep,İslahiye,İdilli,2023-08-09 08:05:06,True,8/9/2023 8:21:54 AM,598245.0
@@ -3596,7 +3538,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.28,Sincik (Adıyaman),38.108,38.437,13.6,ML,3.2,Türkiye,Adıyaman,Sincik,Karaköse,2023-08-16 14:04:00,False,,599284.0
 0.55,Aladağ (Adana),37.658,35.38,7.3,ML,4.5,Türkiye,Adana,Aladağ,Yetimli,2023-08-16 14:36:58,False,,599289.0
 0.19,Göksun (Kahramanmaraş),37.966,36.381,7.12,ML,3.6,Türkiye,Kahramanmaraş,Göksun,Sırmalı,2023-08-17 06:45:49,False,,599358.0
-0.61,"Afrin, Halep (Suriye) - [02.96 km] Kırıkhan (Hatay)",36.511,36.555,15.84,ML,3.1,Suriye,,,,2023-08-17 07:09:49,False,,599359.0
 0.39,Gölbaşı (Adıyaman),37.798,37.716,5.43,MW,4.1,Türkiye,Adıyaman,Gölbaşı,Akçakaya,2023-08-17 15:25:06,False,,599398.0
 0.36,Göksun (Kahramanmaraş),37.982,36.393,7.02,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-17 17:21:42,False,,599409.0
 0.99,Elbistan (Kahramanmaraş),38.368,37.474,7.0,ML,3.4,Türkiye,Kahramanmaraş,Elbistan,Yalıntaş,2023-08-18 13:44:50,False,,599540.0
@@ -3606,3 +3547,6 @@ Rms,Location,Latitude,Longitude,Depth,Type,Magnitude,Country,Province,District,N
 0.47,Göksun (Kahramanmaraş),37.974,36.336,7.28,ML,3.1,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-19 00:14:03,False,,599667.0
 0.64,Marmara Denizi - [16.55 km] Marmaraereğlisi (Tekirdağ),40.842,28.068,7.0,MW,3.8,Türkiye,Tekirdağ,Marmaraereğlisi,,2023-08-19 14:43:46,True,8/19/2023 2:57:13 PM,599704.0
 0.56,Merkez (Osmaniye),36.992,36.402,7.0,ML,3.3,Türkiye,Osmaniye,Merkez,Dereobası,2023-08-19 18:27:29,False,,599716.0
+0.47,Ege Denizi - Gökova Körfezi - [06.42 km] Menteşe (Muğla),37.009,28.188,7.0,MW,3.5,Türkiye,Muğla,Menteşe,,2023-08-20 00:29:30,False,,599760.0
+0.44,Elbistan (Kahramanmaraş),38.349,37.4,6.96,ML,3.2,Türkiye,Kahramanmaraş,Elbistan,Yalıntaş,2023-08-20 04:16:16,False,,599785.0
+0.64,Göksun (Kahramanmaraş),37.996,36.347,22.17,MW,4.2,Türkiye,Kahramanmaraş,Göksun,Huğtaş,2023-08-20 07:05:53,False,,599792.0

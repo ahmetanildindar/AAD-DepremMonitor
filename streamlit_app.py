@@ -4,6 +4,7 @@ import streamlit as st
 import datetime as dt
 
 import folium
+from folium.plugins import BeautifyIcon
 from streamlit_folium import st_folium
 #
 #
@@ -50,7 +51,7 @@ with tab_bakis :
 
     st.dataframe( onceki_depremler_df )
 
-    # st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
 
 
 with tab_analiz :
@@ -77,7 +78,7 @@ with tab_analiz :
             if len( AFAD_eqe_df ) == 0 :
                 st.write( "Deprem yok")
 
-            AFAD_eqe_df = AFAD_eqe_df.dropna( by="Province")
+            AFAD_eqe_df = AFAD_eqe_df.dropna( subset="Province")
 
             # AFAD_eqe_df.to_csv( "AAD-AFAD_Depremler.csv" , index= False)
             try : 
@@ -121,14 +122,21 @@ with tab_analiz :
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
                     
 with tab_test : 
-    # center on Liberty Bell, add marker
-    m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
-    folium.Marker(
-        [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
-    ).add_to(m)
 
-    # call to render Folium map in Streamlit, but don't get any data back
-    # from the map (so that it won't rerun the app when the user interacts)
-    st_folium(m, width=725, returned_objects=[])
+
+    m2 = folium.Map(location=[15, 0], tiles="OpenStreetMap", zoom_start=2)
+
+    # star marker
+    icon_star = BeautifyIcon(
+        icon='star',
+        inner_icon_style='color:blue;font-size:10px;',
+        background_color='transparent',
+        border_color='transparent',
+    )
+
+    folium.Marker([60, 125], tooltip='star', icon=icon_star).add_to(m2)
+
+    st_folium(m2, width=725, returned_objects=[])
+
 
 # %%
