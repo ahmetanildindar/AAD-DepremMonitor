@@ -95,9 +95,7 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
-            button_show_map = st.button('Harita göster')
-
-            if button_show_map : 
+            if len (AFAD_eqe_df) != 0 : 
                 st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "Magnitude")
 
 
