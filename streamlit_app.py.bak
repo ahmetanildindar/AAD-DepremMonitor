@@ -2,6 +2,15 @@
 import pandas as pd
 import streamlit as st
 import datetime as dt
+
+<<<<<<< HEAD
+import folium
+from folium.plugins import BeautifyIcon
+=======
+# import folium
+>>>>>>> 96d505e4d870d4648ebe8037f8bb8ca6312f3350
+from streamlit_folium import st_folium
+#
 #
 #%%
 st.set_page_config( page_title="AAD Deprem Monitor", layout="wide")
