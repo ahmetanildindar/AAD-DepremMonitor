@@ -43,11 +43,11 @@ with tab_bakis :
     st.markdown( metin)
 
     onceki_depremler_df = onceki_depremler_df[ onceki_depremler_df["Country"] == "Türkiye"]
-    onceki_depremler_df["MagnitdueCircle"] = 100 * onceki_depremler_df["Magnitude"] 
+    onceki_depremler_df["MagnitudeCircleSize"] = 1_000 * onceki_depremler_df["Magnitude"] 
 
     st.dataframe( onceki_depremler_df )
 
-    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "MagnitdueCircle")
+    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "MagnitudeCircleSize")
 
 
 with tab_analiz :
@@ -97,9 +97,9 @@ with tab_analiz :
             st.dataframe( AFAD_eqe_df)
 
             if len (AFAD_eqe_df) != 0 : 
-                AFAD_eqe_df["MagnitdueCircle"] = 100 * AFAD_eqe_df["Magnitude"] 
+                AFAD_eqe_df["MagnitudeCircleSize"] = 1_000 * AFAD_eqe_df["Magnitude"] 
 
-                st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "MagnitdueCircle")
+                st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "MagnitudeCircleSize")
 
 
             # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
