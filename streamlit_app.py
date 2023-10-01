@@ -43,10 +43,11 @@ with tab_bakis :
     st.markdown( metin)
 
     onceki_depremler_df = onceki_depremler_df[ onceki_depremler_df["Country"] == "Türkiye"]
+    onceki_depremler_df["MagnitudeCircleSize"] = 1_000 * onceki_depremler_df["Magnitude"] 
 
     st.dataframe( onceki_depremler_df )
 
-    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+    st.map( data = onceki_depremler_df , latitude="Latitude", longitude = "Longitude" , size = "MagnitudeCircleSize")
 
 
 with tab_analiz :
@@ -96,8 +97,10 @@ with tab_analiz :
 
             st.dataframe( AFAD_eqe_df)
 
-            if len( AFAD_eqe_df ) > 0 : 
-                st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "Magnitude")
+            if len (AFAD_eqe_df) != 0 : 
+                AFAD_eqe_df["MagnitudeCircleSize"] = 1_000 * AFAD_eqe_df["Magnitude"] 
+
+                st.map( AFAD_eqe_df , latitude = "Latitude" , longitude = "Longitude" , size = "MagnitudeCircleSize")
 
 
             # st.map( data = AFAD_eqe_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude" , color= [0.0, 0.0 , 0.0 , 1.0])
@@ -121,8 +124,15 @@ with tab_analiz :
                           
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
                     
-with tab_test : 
-    pass
+# with tab_test : 
+#     # center on Liberty Bell, add marker
+#     m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
+#     folium.Marker(
+#         [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
+#     ).add_to(m)
 
+#     # call to render Folium map in Streamlit, but don't get any data back
+#     # from the map (so that it won't rerun the app when the user interacts)
+#     st_folium(m, width=725, returned_objects=[])
 
 # %%
