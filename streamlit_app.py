@@ -2,6 +2,8 @@
 import pandas as pd
 import streamlit as st
 import datetime as dt
+import plotly.figure_factory as ff
+
 #
 #%%
 st.set_page_config( page_title="AAD Deprem Monitor", layout="wide")
@@ -38,11 +40,14 @@ with tab_bakis :
 
     onceki_depremler_df = kayitli_depremler( ) ;
 
+    onceki_depremler_df["Date"] = pd.to_datetime( onceki_depremler_df["Date"] ).dt.date
+
     metin = f"Şu anda bu sitede önceden kaydedilmiş **{len( onceki_depremler_df)}** adet deprem bulunmaktadır. En büyük deprem **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Type} {onceki_depremler_df.Magnitude.max()}**, **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Date}** tarihinde **{onceki_depremler_df[ onceki_depremler_df.Magnitude == onceki_depremler_df.Magnitude.max() ].iloc[0].Location}** konumunda gözlenmiştir."
 
     st.markdown( metin)
 
     onceki_depremler_df = onceki_depremler_df[ onceki_depremler_df["Country"] == "Türkiye"]
+
     onceki_depremler_df["MagnitudeCircleSize"] = 1_000 * onceki_depremler_df["Magnitude"] 
 
     st.dataframe( onceki_depremler_df )
@@ -107,13 +112,31 @@ with tab_analiz :
     with tab_konum :
         st.markdown( f"**Analiz Zamanı** : _{dt.datetime.now().strftime('%Y_%m%d-%H:%M:%S')}_")
 
-        iller = onceki_depremler_df["Province"].unique()
+        iller = onceki_depremler_df["Province"].sort_values().unique()
 
         st_iller = st.multiselect( "İl seçiniz", iller)
 
+        tick_zaman_analiz = st.checkbox( "Zaman aralığı seç" )
+
+        if tick_zaman_analiz : 
+            col_ilk , col_son = st.columns( 2)
+            with col_ilk:
+                ilk_gun_analiz = st.date_input("İlk gün 1")
+
+                first_analiz = ilk_gun_analiz.strftime("%Y-%m-%d") + "%2000:00:00"
+            with col_son:
+                son_gun_analiz = st.date_input("Son gün 1")
+
+                last_analiz = son_gun_analiz.strftime("%Y-%m-%d") + "%2023:59:00"
+
         if st_iller : 
             # onceki_depremler_secili_df = onceki_depremler_df.query(f"Province in {st_iller}")
-            onceki_depremler_secili_df = onceki_depremler_df[ onceki_depremler_df["Province"].isin( st_iller)]
+            if tick_zaman_analiz == False : 
+                onceki_depremler_secili_df = onceki_depremler_df[ onceki_depremler_df["Province"].isin( st_iller)]
+            else : 
+                onceki_depremler_secili_df = onceki_depremler_df[ onceki_depremler_df["Province"].isin( st_iller)]
+                #
+                onceki_depremler_secili_df = onceki_depremler_secili_df[ (onceki_depremler_secili_df.Date >= ilk_gun_analiz)  &   (onceki_depremler_secili_df.Date <= son_gun_analiz)  ]
 
 
             button_show_secili = st.button("Secili konumları göster")
@@ -123,6 +146,9 @@ with tab_analiz :
 
                           
                 st.map( data = onceki_depremler_secili_df , latitude="Latitude", longitude = "Longitude" , size = "Magnitude")
+
+
+                st.bar_chart(onceki_depremler_secili_df , x = "Date" , y = "Depth")
                     
 # with tab_test : 
 #     # center on Liberty Bell, add marker
